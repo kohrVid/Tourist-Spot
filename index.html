@@ -11,13 +11,14 @@
 
 		<!-- Bootstrap core CSS -->
 		<link href = "css/bootstrap.min.css" rel = "stylesheet">
+		<link href = "css/layout.css" rel = "stylesheet">
 	</head>
 
 	<body>
 		<header>
 			<div class = "row" style = "padding-top:30px;">
 				<div class = "col-md-3">
-					<h1><img width = "90%" height = "90%" src = "img/logo.jpg" /></h1>
+					<h1><img height= "50%" src = "img/logo.png" /></h1>
 				</div>
 
 				<div class = "col-md-9">
@@ -32,38 +33,75 @@
 			</div>
 		</header>
 
-		<div class = "row">
+		<div class = "row1">
 			<div class = "col-md-12">
 				<div id = "carousel-example-generic" class = "carousel slide" data-interval = "3000" data-ride = "carousel">
 					<ol class = "carousel-indicators">
 						<li data-target = "#carousel-example-generic" data-slide-to = "0" class = "active"></li>
-						<li data-target = "#carousel-example-generic" data-slide-to = "1" class = "active"></li>
-						<li data-target = "#carousel-example-generic" data-slide-to = "2" class = "active"></li>
+						<li data-target = "#carousel-example-generic" data-slide-to = "1" class = ""></li>
+						<li data-target = "#carousel-example-generic" data-slide-to = "2" class = ""></li>
 					</ol>
-					<div class = "item active">
-						<img alt = "First slide" src = "img/church_wheel.jpg">
+					<div class = "carousel-inner">
+						<div class = "item active">
+							<img alt = "First slide" src = "img/church_wheel.JPG">
+						</div>
+						<div class = "item">
+							<img alt = "Second slide" src = "img/castle.JPG">
+						</div>
+						<div class = "item">
+							<img alt = "Third slide" src = "img/bridge.JPG">
+						</div>
 					</div>
-					<div class = "item">
-						<img alt = "Second slide" src = "img/castle.jpg">
-					</div>
-					<div class = "item">
-						<img alt = "Third slide" src = "img/giraffe.jpg">
-					</div>
+					<!-- Controls -->
 
+					<a class = "left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class = "glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class = "right carousel-control" href = "#carousel-example-generic" role="button" data-slide = "next">
+						<span class = "glyphicon glyphicon-chevron-right"></span>
+					</a>
 				</div>
 
-				<!-- Controls -->
-				<a class = "left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-					<span class = "glyphicon glyphicon-chevron-left"></span>
-				</a>
-				<a class = "right carousel-control" href = "#carousel-example-generic" role="button" data-slide = "next">
-					<span class = "glyphicon glyphicon-chevron-right"></span>
-				</a>
+				<!-- Carousel -->
+
+				<hr />
+			</div>	
+		</div>
+
+		<div class = "row">
+			<div class = "col-md-4">
+				<img src = "img/church_wheel.JPG" />
+				<h4>Tourist Spot 1</h4>
+				<p>This is a photo of the Scott Monument and the Ferris wheel on Princes Street Edinburgh</p>
 			</div>
+			
+			<div class = "col-md-4">
+				<img src = "img/castle.JPG" />
+				<h4>Tourist Spot 2</h4>
+				<p>This is a photo of Edinburgh Mound.</p>
+			</div>
+			
+			<div class = "col-md-4">
+				<img src = "img/bridge.JPG" />
+				<h4>Tourist Spot 3</h4>
+				<p>This is the view from the North Bridge in Edinburgh</p>
+			</div>
+		</div>
 
-			<!-- Carousel -->
-
-			<hr />
+		<div class = "row">
+			<div class = "col-md-12">
+				<div class = "panel-footer">
+					<h4>Get in touch!</h4>
+					<div class = "row">
+						<div class = "col-md-9">
+							<p>We'd love to hear from you.</p>
+						</div>
+						<div class = "col-md-3">
+							<a href = "#" class = "btn btn-primary active">Contact Us</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 
