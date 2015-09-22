@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang = "eng">
+	<head>
+		<meta charset = "utf-8">
+		<meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1">
+		<meta name = "description" content= "">
+		<meta name = "author" content= "">
+
+		<title>Grid Template for Bootstrap</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href = "css/bootstrap.min.css" rel = "stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<div class = "row" style = "padding-top:30px;">
+				<div class = "col-md-3">
+					<h1><img width = "90%" height = "90%" src = "img/logo.jpg" /></h1>
+				</div>
+
+				<div class = "col-md-9">
+					<div class = "btn-group pull-right">
+						<button type = "button" class = "btn btn-primary active">Home</button>
+						<button type = "button" class = "btn btn-primary active">Serivces</button>
+						<button type = "button" class = "btn btn-primary active">About Us</button>
+						<button type = "button" class = "btn btn-primary active">FAQ</button>
+						<button type = "button" class = "btn btn-primary active">Contact Us</button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class = "row">
+			<div class = "col-md-12">
+				<div id = "carousel-example-generic" class = "carousel slide" data-interval = "3000" data-ride = "carousel">
+					<ol class = "carousel-indicators">
+						<li data-target = "#carousel-example-generic" data-slide-to = "0" class = "active"></li>
+						<li data-target = "#carousel-example-generic" data-slide-to = "1" class = "active"></li>
+						<li data-target = "#carousel-example-generic" data-slide-to = "2" class = "active"></li>
+					</ol>
+					<div class = "item active">
+						<img alt = "First slide" src = "img/church_wheel.jpg">
+					</div>
+					<div class = "item">
+						<img alt = "Second slide" src = "img/castle.jpg">
+					</div>
+					<div class = "item">
+						<img alt = "Third slide" src = "img/giraffe.jpg">
+					</div>
+
+				</div>
+
+				<!-- Controls -->
+				<a class = "left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					<span class = "glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class = "right carousel-control" href = "#carousel-example-generic" role="button" data-slide = "next">
+					<span class = "glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+
+			<!-- Carousel -->
+
+			<hr />
+		</div>
+
+
+
+		<footer>
+			<div class = "row">
+				<div class = "col-md-6">
+					<p>©2015 kohrVid</p>
+				</div>
+				<div class = "col-md-6">
+					<ul class = "nav nav-pills pull-right">
+						<li><a href = "#">Home</a></li>
+						<li><a href = "#">Services</a></li>
+						<li><a href = "#">About Us</a></li>
+						<li><a href = "#">FAQ</a></li>
+						<li><a href = "#">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		
+
+
+
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src = "js/bootstrap.min.js"></script>
+
+	</body>
+</html>
